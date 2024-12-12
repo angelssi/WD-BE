@@ -1,0 +1,45 @@
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: rgb(255, 193, 204);
+  }
+  
+  .card:hover {
+    background-color: rgb(255, 182, 193);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body h1 {
+    text-align: center;
+  }
+  
+  .card-name {
+    background-color: rgb(255, 193, 204);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-intros {
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 7vh;
+  }
+  
+  .card-text-desc {
+    text-align: justify;
+  }
+  
+  .card-body-desc {
+    margin-left: 50px;
+    margin-right: 120px;
+    align-items: center;
+  }
+  
+  .carousel {
+    padding-right: 0px;
+  }

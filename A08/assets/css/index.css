@@ -1,0 +1,67 @@
+@font-face {
+  font-family: mfont;
+  src: url('../fonts/insideout.ttf');
+}
+
+h1 {
+  font-family: mfont;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('../images/bg.gif');
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.img{
+  width: 60%;
+  transform: scale(1.1);
+  display: flex;
+  margin: auto;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.short-desc-friendship,
+.short-desc-family,
+.short-desc-cat,
+.short-desc-dance {
+  font-family: mfont;
+  font-size: 3vh;
+  text-align: center;
+  padding: 10px;
+  margin-top: 80px;
+  margin: auto;
+}
+
+.short-desc-friendship {
+  color: rgb(142, 58, 146); 
+}
+
+.short-desc-family {
+  color: rgb(154, 77, 84); 
+}
+
+.short-desc-cat {
+  color: rgb(125, 140, 180); 
+}
+
+.short-desc-dance {
+  color: rgb(129, 192, 181); 
+}

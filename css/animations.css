@@ -1,0 +1,62 @@
+@keyframes animateCloud {
+    0% {
+      margin-left: -2000px;
+    }
+  
+    100% {
+      margin-left: 100%;
+    }
+  }
+  
+  @keyframes bounceInDown {
+    0% {
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+  
+    60% {
+      transform: translateY(30px);
+      opacity: 1;
+    }
+  
+    80% {
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounceInLeft {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+  
+    60% {
+      transform: translateX(30px);
+      opacity: 1;
+    }
+  
+    80% {
+      transform: translateX(-10px);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 1;
+      scale: 0.5;
+    }
+  
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+

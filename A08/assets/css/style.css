@@ -1,0 +1,41 @@
+@font-face {
+  font-family: mfont;
+  src: url('../fonts/insideout.ttf');
+}
+  @font-face {
+    font-family: poppins;
+    src: url('../fonts/poppins.regular.ttf');
+  }
+
+
+  h1 {
+    font-family: mfont;
+  }
+
+  body,
+  html {
+    height: 100%
+  }
+
+  .bgimg {
+    background-image: url('../images/bg4.jpeg');
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+
+  .title {
+    animation: swing 1.5s ease-in-out infinite;
+
+  }
+  
